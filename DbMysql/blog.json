@@ -1,0 +1,15 @@
+[{"id":1, "title":"Titulo editado", "content":"esto es una prueba de actualizar", "createdAt":"0000-00-00", "updatedAt":"2023-05-07"},
+ {"id":3, "title":"T\u00edtulo 3", "content":"Contenido de mi tercer post", "createdAt":"0000-00-00", "updatedAt":"0000-00-00"},
+ {"id":4, "title":"T\u00edtulo 4", "content":"Contenido de mi cuarto post", "createdAt":"0000-00-00", "updatedAt":"0000-00-00"},
+ {"id":5, "title":"T\u00edtulo 5", "content":"Contenido de mi quinto post", "createdAt":"0000-00-00", "updatedAt":"0000-00-00"},
+ {"id":6, "title":"T\u00edtulo 6", "content":"Contenido de mi sexto post", "createdAt":"0000-00-00", "updatedAt":"0000-00-00"},
+ {"id":7, "title":"Poliza", "content":"esto es una prueba", "createdAt":"2023-05-07", "updatedAt":"2023-05-07"}]
+
+
+INSERT INTO blogs (id, title, content) VALUES
+(1, 'Título 1', 'Contenido de mi primer post'),
+(2, 'Título 2', 'Contenido de mi segundo post'),
+(3, 'Título 3', 'Contenido de mi tercer post'),
+(4, 'Título 4', 'Contenido de mi cuarto post'),
+(5, 'Título 5', 'Contenido de mi quinto post'),
+(6, 'Título 6', 'Contenido de mi sexto post');
